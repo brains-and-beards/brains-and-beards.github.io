@@ -1,62 +1,79 @@
 body {
-    background-color: #FFFFFF;
-    background-image: url(../../design.jpg);
-    font-family: Gilroy-ExtraBold;
-    height: 4700px;
+  background-color: #FFFFFF;
+  background-image: url(../../adesign.jpg);
+  font-family: Gilroy-ExtraBold;
+  height: 4700px;
+}
+
+#container {
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 #top-image {
-    position: absolute;
-    background-image: url(../img/top-image.jpg);
-    width: 739px;
-    height: 679px;
-    top: 0px;
-    left: 361px;
+  position: absolute;
+  background-image: url(../img/top-image.jpg);
+  width: 739px;
+  height: 679px;
+  top: 0px;
+  left: 361px;
 }
 
 #menu {
-    position: fixed;
-}
-
-#menu a {
-    font-family: Gilroy-ExtraBold;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 16px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    color: #000;
-}
-
-#section-1 {
-    height: 681px;
-}
-
-#art {
-    background-image: url(../img/bandb-art.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.heading {
-    font-size: 70px;
-    line-height: 0.95;
-    position: relative;
-    top: 350px;
-    left: -50px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 26px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 a.pure-menu-heading {
-    padding-right: 294px;
-    background-image: url(../img/logo.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    overflow: visible;
-    height: 40px;
+  padding-right: 350px;
+  background-image: url(../img/logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  overflow: visible;
+  height: 40px;
+}
+.pure-menu-item a {
+  padding: 5px 14px;
+}
+.pure-menu-item.active a {
+  background-color: #FEE734;
+  padding: 5px 20px;
+}
+
+#menu a {
+  font-family: Gilroy-ExtraBold;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+#section-1 {
+  height: 681px;
+}
+
+#art {
+  background-image: url(../img/bandb-art.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.heading {
+  font-size: 70px;
+  line-height: 0.95;
+  position: relative;
+  /*top: 350px;
+  left: -50px;*/
 }
 
 .Gilroy-ExtraBold {
-    font-family: Gilroy-ExtraBold;
-    font-weight: normal;
-    font-style: normal;
+  font-family: Gilroy-ExtraBold;
+  font-weight: normal;
+  font-style: normal;
 }
