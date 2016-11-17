@@ -1,0 +1,62 @@
+body {
+    background-color: #FFFFFF;
+    background-image: url(../../design.jpg);
+    font-family: Gilroy-ExtraBold;
+    height: 4700px;
+}
+
+#top-image {
+    position: absolute;
+    background-image: url(../img/top-image.jpg);
+    width: 739px;
+    height: 679px;
+    top: 0px;
+    left: 361px;
+}
+
+#menu {
+    position: fixed;
+}
+
+#menu a {
+    font-family: Gilroy-ExtraBold;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+#section-1 {
+    height: 681px;
+}
+
+#art {
+    background-image: url(../img/bandb-art.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.heading {
+    font-size: 70px;
+    line-height: 0.95;
+    position: relative;
+    top: 350px;
+    left: -50px;
+}
+
+a.pure-menu-heading {
+    padding-right: 294px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: visible;
+    height: 40px;
+}
+
+.Gilroy-ExtraBold {
+    font-family: Gilroy-ExtraBold;
+    font-weight: normal;
+    font-style: normal;
+}
