@@ -15,7 +15,6 @@ body {
   background-image: url(../img/top-image.jpg);
   width: 739px;
   height: 679px;
-  top: 0px;
   left: 361px;
 }
 
@@ -65,15 +64,43 @@ a.pure-menu-heading {
 }
 
 .heading {
-  font-size: 70px;
-  line-height: 0.95;
+  font-size: 69px;
+  line-height: 0.85;
+  margin-top: 416px;
+  margin-bottom: 35px;
+  letter-spacing: -0.01em;
+}
+
+#section-1 p {
   position: relative;
-  /*top: 350px;
-  left: -50px;*/
+  left: -150px;
+}
+
+#section-1 .text {
+  font-size: 18px;
+  letter-spacing: -0.01em;
+  line-height: 1.11;
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+#section-1 .cta a {
+  font-size: 18px;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  color: #000;
+  padding-bottom: 0px;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  letter-spacing: 0.04em;
 }
 
 .Gilroy-ExtraBold {
   font-family: Gilroy-ExtraBold;
   font-weight: normal;
   font-style: normal;
+}
+
+.Poppins-Regular {
+  font-family: Poppins;
 }
