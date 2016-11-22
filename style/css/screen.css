@@ -5,7 +5,7 @@ body {
   height: 4700px;
 }
 
-#container {
+.container {
   max-width: 1300px;
   margin: 0 auto;
 }
@@ -63,12 +63,15 @@ a.pure-menu-heading {
   background-size: contain;
 }
 
-.heading {
-  font-size: 69px;
-  line-height: 0.85;
+#section-1 .heading-text {
   margin-top: 416px;
   margin-bottom: 35px;
-  letter-spacing: -0.01em;
+}
+
+.heading-text {
+  font-size: 69px;
+  line-height: 0.85;
+  letter-spacing: 0;
 }
 
 #section-1 p {
@@ -93,6 +96,18 @@ a.pure-menu-heading {
   text-decoration: none;
   border-bottom: 1px solid #000;
   letter-spacing: 0.04em;
+}
+
+#section-2 {
+  background:
+    url(../img/walk-up.png)
+    top left
+    no-repeat
+    #FEE740;
+  margin-top: 279px;
+}
+#section-2 .heading-text {
+  margin: 175px 0 0 10px;
 }
 
 .Gilroy-ExtraBold {
