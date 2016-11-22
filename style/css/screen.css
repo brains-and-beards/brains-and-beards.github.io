@@ -105,10 +105,11 @@ a.pure-menu-heading {
     no-repeat
     #FEE740;
   margin-top: 179px;
-  padding-top: 175px;
+  padding: 175px 0 100px 0;
+
 }
 #section-2 .heading-text {
-  margin: 0 0 0 10px;
+  margin: 0 0 40px 10px;
 }
 #section-2 #hot {
   position: relative;
@@ -124,10 +125,18 @@ a.pure-menu-heading {
   font-size: 25px;
   letter-spacing: 0;
   line-height: 1.3;
-}
-#section-2 .testimonial.right-pad {
   padding: 0 50px 0 0;
-  margin: 40px 0;
+}
+#section-2 .item {
+  margin: 25px 0;
+}
+#section-2-slider {
+  background:
+    url(../img/slide-down.png)
+    top left
+    no-repeat
+    #FEE740;
+  height: 79px;
 }
 
 .source {
@@ -141,6 +150,9 @@ a.pure-menu-heading {
 .source.right-align {
   text-align: right;
   margin: 40px 25px 0 0;
+}
+.source.left-align {
+  margin: 35px 0 0 50px;
 }
 
 .Gilroy-ExtraBold {
