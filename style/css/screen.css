@@ -2,6 +2,7 @@ body {
   background-color: #FFFFFF;
   background-image: url(../../adesign.jpg);
   font-family: Gilroy-ExtraBold;
+  min-width: 1300px;
 }
 
 .container {
