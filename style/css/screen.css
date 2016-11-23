@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1150px;
   margin: 0 auto;
 }
 
@@ -76,15 +76,17 @@ a.pure-menu-heading {
 
 #section-1 p {
   position: relative;
-  left: -150px;
+  left: -50px;
+  top: -50px;
 }
 
-#section-1 .text {
+.text {
   font-size: 18px;
   letter-spacing: -0.01em;
   line-height: 1.11;
   margin-top: 0;
   margin-bottom: 28px;
+  font-family: Poppins;
 }
 
 #section-1 .cta a {
@@ -106,7 +108,6 @@ a.pure-menu-heading {
     #FEE740;
   margin-top: 179px;
   padding: 175px 0 100px 0;
-
 }
 #section-2 .heading-text {
   margin: 0 0 40px 10px;
@@ -133,10 +134,35 @@ a.pure-menu-heading {
 #section-2-slider {
   background:
     url(../img/slide-down.png)
-    top left
+    bottom left
     no-repeat
     #FEE740;
   height: 79px;
+  padding-top: 50px;
+}
+
+#section-3 {
+}
+#section-3 #planet {
+  position: relative;
+  top: -200px;
+  left: -50px;
+}
+#section-3 .heading-text {
+  margin: 320px 0 0 120px;
+}
+#section-3 .text {
+  margin: 25px 75px 0 120px;
+}
+#section-3 .client-list {
+  padding: 0 50px;
+  position: relative;
+  top: -90px;
+}
+#section-3 img.logo {
+  display: inline;
+  vertical-align: middle;
+  padding: 0 50px;
 }
 
 .source {
