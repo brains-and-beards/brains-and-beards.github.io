@@ -166,6 +166,13 @@ a.pure-menu-heading {
   vertical-align: middle;
   padding: 0 50px;
 }
+#section-3-slider {
+  width: 100%;
+}
+#section-3-slider img {
+  display: block;
+  margin: auto;
+}
 
 .source {
   font-family: Gilroy-ExtraBold;
