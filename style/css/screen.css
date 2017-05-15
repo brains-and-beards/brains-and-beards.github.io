@@ -41,7 +41,7 @@ a.pure-menu-heading {
   padding: 5px 14px;
 }
 .pure-menu-item.active a {
-  background-color: #FEE734;
+  background-color: #ffea00;
   padding: 5px 20px;
 }
 
@@ -107,7 +107,7 @@ a.pure-menu-heading {
     url(../img/walk-up.png)
     top left
     no-repeat
-    #FEE740;
+    #ffea00;
   margin-top: 179px;
   padding: 175px 0 100px 0;
 }
@@ -138,7 +138,7 @@ a.pure-menu-heading {
     url(../img/slide-down.png)
     bottom left
     no-repeat
-    #FEE740;
+    #ffea00;
   height: 79px;
   padding-top: 50px;
 }
@@ -263,7 +263,7 @@ a.pure-menu-heading {
   font-size: 86px;
 }
 #footer .cta-button {
-  background-color: #FDE740;
+  background-color: #ffea00;
   padding: 20px 60px;
   color: #000;
   font-size: 34px;
@@ -296,11 +296,11 @@ a.pure-menu-heading {
   text-align: right;
 }
 #mc_embed_signup .button {
-  background-color: #FEE740;
+  background-color: #ffea00;
   color: #000;
 }
 #mc_embed_signup .button:hover {
-  background-color: #FEE740;
+  background-color: #ffea00;
   color: #000;
 }
 #mc_embed_signup input.email {
