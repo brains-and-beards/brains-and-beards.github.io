@@ -4,10 +4,10 @@ body {
   /*min-width: 1300px;*/
 }
 
-.container {
+/*.container {
   width: 1150px;
   margin: 0 auto;
-}
+}*/
 
 /******************* Newly added styles ********************/
 
@@ -28,18 +28,34 @@ nav {
   padding: 5px 20px;
 }
 
+.main-container {
+  margin-top: -50px;
+}
+
+@media (max-width: 767px) {
+  #section-1 p {
+    position: relative;
+    top: -60px;
+  }
+}
+
+@media (max-width: 991px) {
+  #section-1 .heading-text {
+    margin-top: 10px !important;
+  }
+}
 
 /***********************************************************/
 
-#top-image {
+/*#top-image {
   position: absolute;
   background-image: url(../img/top-image.jpg);
   width: 739px;
   height: 679px;
   left: 361px;
-}
+}*/
 
-#menu {
+/*#menu {
   position: fixed;
   left: 0;
   right: 0;
@@ -58,16 +74,16 @@ a.pure-menu-heading {
   background-size: contain;
   overflow: visible;
   height: 40px;
-}
-.pure-menu-item a {
+}*/
+/*.pure-menu-item a {
   padding: 5px 14px;
 }
 .pure-menu-item.active a {
   background-color: #ffea00;
   padding: 5px 20px;
-}
+}*/
 
-#menu a {
+/*#menu a {
   font-family: Gilroy-ExtraBold;
   font-weight: normal;
   font-style: normal;
@@ -75,20 +91,21 @@ a.pure-menu-heading {
   letter-spacing: 0.5px;
   text-transform: uppercase;
   color: #000;
-}
+}*/
 
-#section-1 {
+/*#section-1 {
   height: 681px;
-}
+}*/
 
 #art {
   background-image: url(../img/bandb-art.png);
   background-repeat: no-repeat;
   background-size: contain;
+  min-height: 500px;
 }
 
 #section-1 .heading-text {
-  margin-top: 416px;
+  margin-top: 350px;
   margin-bottom: 35px;
 }
 
@@ -98,11 +115,11 @@ a.pure-menu-heading {
   letter-spacing: 0;
 }
 
-#section-1 p {
+/*#section-1 p {
   position: relative;
   left: -50px;
   top: -50px;
-}
+}*/
 
 .text {
   font-size: 18px;
