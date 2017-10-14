@@ -44,6 +44,10 @@ nav {
     position: relative;
     top: -60px;
   }
+  
+  #section-4 img {
+    top: 0px !important;
+  }
 }
 
 @media (max-width: 991px) {
@@ -138,8 +142,7 @@ nav {
   line-height: 1.3;
 }
 #section-2-slider {
-  background:
-    url(../img/slide-down.png)
+  background: url(../img/slide-down.png)
     bottom left
     no-repeat
     #ffea00;
@@ -170,14 +173,45 @@ nav {
   padding: 0 50px;
 }
 #section-3-slider {
-  width: 100%;
-}
-#section-3-slider img {
-  display: block;
-  margin: auto;
+  background: url(../img/black-line-down.png) no-repeat;
   height: 79px;
   width: 100%;
 }
+
+#section-4 {
+  padding: 0px 50px;
+}
+#section-4 .heading-text {
+  margin-bottom: 25px;
+}
+#section-4 img {
+  top: -100px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  padding: 30px;
+}
+#section-4 .blogpost {
+  font-family: "Playfair Display";
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 1.3;
+  text-align: justify;
+}
+#section-4 .blog-link {
+  font-weight: 900;
+  text-align: right;
+  font-size: 18px;
+  display: block;
+  font-family: Gilroy-ExtraBold;
+  text-transform: uppercase;
+}
+#section-4 a.blog-link {
+  color: #000;
+}
+
 /***********************************************************/
 
 /*#top-image {
@@ -236,38 +270,6 @@ a.pure-menu-heading {
   top: -50px;
 }*/
 
-#section-4 .heading-text {
-  margin-bottom: 25px;
-  text-align: right;
-}
-#section-4 .text {
-  text-align: right;
-}
-#section-4 img {
-  top: -100px;
-  position: relative;
-  width: 250px;
-  padding: 30px;
-}
-#section-4 .blogpost {
-  font-family: "Playfair Display";
-  font-size: 25px;
-  letter-spacing: 0;
-  line-height: 1.3;
-  text-align: justify;
-}
-#section-4 .blog-link {
-  font-weight: 900;
-  text-align: right;
-  font-size: 18px;
-  display: block;
-  font-family: Gilroy-ExtraBold;
-  text-transform: uppercase;
-}
-#section-4 a.blog-link {
-  color: #000;
-}
-
 /*.source.right-align {
   text-align: right;
   margin: 40px 25px 0 0;
@@ -282,7 +284,7 @@ a.pure-menu-heading {
   /*margin: 0 auto;*/
   position: fixed;
   bottom: 0px;
-  padding: 10px 0 10px 0;
+  padding: 10px;
   /*padding: 25px 0 75px 0;*/
 }
 .newsletter-box .text {
@@ -300,7 +302,6 @@ a.pure-menu-heading {
 .newsletter-box .center {
   display: block;
   margin: 0 auto;
-  width: 900px;
 }
 
 #footer {
