@@ -50,6 +50,10 @@ nav {
   #section-1 .heading-text {
     margin-top: 10px !important;
   }
+  
+  #section-3 .heading-text {
+    margin-top: -150px !important;
+  }
 }
 
 .heading-text {
@@ -71,18 +75,26 @@ nav {
   padding-bottom: 15px;
 }
 
+.source {
+  font-family: Gilroy-ExtraBold;
+  font-size: 17px;
+  /*line-height: 0.3em;*/
+}
+
+.source .name {
+  text-transform: uppercase;
+}
+
 #art {
   background-image: url(../img/bandb-art.png);
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 500px;
 }
-
 #section-1 .heading-text {
   margin-top: 350px;
   margin-bottom: 35px;
 }
-
 #section-1 .cta a {
   font-size: 18px;
   letter-spacing: 0.025em;
@@ -132,6 +144,39 @@ nav {
     no-repeat
     #ffea00;
   height: 79px;
+}
+
+#section-3 {
+  padding: 0px 50px;
+}
+#section-3 #planet {
+  position: relative;
+  top: -200px;
+  left: -50px;
+  max-width: 90vw;
+}
+#section-3 .heading-text {
+  margin: 330px 0 0 00px;
+}
+#section-3 .text {
+  margin: 25px 75px 0px 0px;
+}
+#section-3 .client-list {
+  padding: 10px;
+}
+#section-3 img.logo {
+  display: inline;
+  vertical-align: middle;
+  padding: 0 50px;
+}
+#section-3-slider {
+  width: 100%;
+}
+#section-3-slider img {
+  display: block;
+  margin: auto;
+  height: 79px;
+  width: 100%;
 }
 /***********************************************************/
 
@@ -191,37 +236,6 @@ a.pure-menu-heading {
   top: -50px;
 }*/
 
-#section-3 {
-}
-#section-3 #planet {
-  position: relative;
-  top: -200px;
-  left: -50px;
-}
-#section-3 .heading-text {
-  margin: 320px 0 0 120px;
-}
-#section-3 .text {
-  margin: 25px 75px 0 120px;
-}
-#section-3 .client-list {
-  padding: 0 50px;
-  position: relative;
-  top: -90px;
-}
-#section-3 img.logo {
-  display: inline;
-  vertical-align: middle;
-  padding: 0 50px;
-}
-#section-3-slider {
-  width: 100%;
-}
-#section-3-slider img {
-  display: block;
-  margin: auto;
-}
-
 #section-4 .heading-text {
   margin-bottom: 25px;
   text-align: right;
@@ -254,21 +268,13 @@ a.pure-menu-heading {
   color: #000;
 }
 
-.source {
-  font-family: Gilroy-ExtraBold;
-  font-size: 17px;
-  line-height: 0.3em;
-}
-.source .name {
-  text-transform: uppercase;
-}
-.source.right-align {
+/*.source.right-align {
   text-align: right;
   margin: 40px 25px 0 0;
 }
 .source.left-align {
   margin: 35px 0 0 50px;
-}
+}*/
 
 .newsletter-box {
   background-color: #000;
