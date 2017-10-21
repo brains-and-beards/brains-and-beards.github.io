@@ -1,85 +1,56 @@
 body {
   background-color: #FFFFFF;
   font-family: Gilroy-ExtraBold;
-  min-width: 1300px;
 }
 
-.container {
-  width: 1150px;
-  margin: 0 auto;
+nav {
+  background-color: rgba(255,255,255,0.9);
 }
 
-#top-image {
-  position: absolute;
-  background-image: url(../img/top-image.jpg);
-  width: 739px;
-  height: 679px;
-  left: 361px;
+.nav-item a {
+  font-family: Gilroy-ExtraBold;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #000 !important;
 }
-
-#menu {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 16px;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 5px 50px 5px 10px;
-  z-index: 300;
-  background-color:rgba(255,255,255,0.5);
-}
-
-a.pure-menu-heading {
-  padding-right: 350px;
-  background-image: url(../img/logo.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  overflow: visible;
-  height: 40px;
-}
-.pure-menu-item a {
-  padding: 5px 14px;
-}
-.pure-menu-item.active a {
+.nav-item.active a {
   background-color: #ffea00;
   padding: 5px 20px;
 }
 
-#menu a {
+.Gilroy-ExtraBold {
   font-family: Gilroy-ExtraBold;
   font-weight: normal;
   font-style: normal;
-  font-size: 16px;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  color: #000;
 }
 
-#section-1 {
-  height: 681px;
+@media (max-width: 767px) {
+  #section-1 p {
+    position: relative;
+    top: -60px;
+  }
+
+  #section-4 img {
+    top: 0px !important;
+  }
 }
 
-#art {
-  background-image: url(../img/bandb-art.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
+@media (max-width: 991px) {
+  #section-1 .heading-text {
+    margin-top: 10px !important;
+  }
 
-#section-1 .heading-text {
-  margin-top: 416px;
-  margin-bottom: 35px;
+  #section-3 .heading-text {
+    margin-top: -150px !important;
+  }
 }
 
 .heading-text {
   font-size: 69px;
   line-height: 0.85;
   letter-spacing: 0;
-}
-
-#section-1 p {
-  position: relative;
-  left: -50px;
-  top: -50px;
 }
 
 .text {
@@ -91,6 +62,33 @@ a.pure-menu-heading {
   font-family: Poppins;
 }
 
+.testimonial-row {
+  padding-bottom: 15px;
+}
+
+.source {
+  font-family: Gilroy-ExtraBold;
+  font-size: 17px;
+}
+
+.source .name {
+  text-transform: uppercase;
+}
+
+#art {
+  background-image: url(../img/bandb-art.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 500px;
+}
+#section-1 {
+  margin-top: -50px;
+  margin-bottom: 100px;
+}
+#section-1 .heading-text {
+  margin-top: 350px;
+  margin-bottom: 35px;
+}
 #section-1 .cta a {
   font-size: 18px;
   letter-spacing: 0.025em;
@@ -108,58 +106,56 @@ a.pure-menu-heading {
     top left
     no-repeat
     #ffea00;
-  margin-top: 179px;
-  padding: 175px 0 100px 0;
+  padding: 150px 50px;
 }
 #section-2 .heading-text {
   margin: 0 0 40px 10px;
 }
 #section-2 #hot {
-  position: relative;
-  top: -225px;
-  height: 100px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
 }
 #section-2 #good-job {
-  position: relative;
-  left: -50px;
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 #section-2 .testimonial {
   font-family: "Playfair Display";
   font-size: 25px;
   letter-spacing: 0;
   line-height: 1.3;
-  padding: 0 50px 0 0;
-}
-#section-2 .item {
-  margin: 25px 0;
 }
 #section-2-slider {
-  background:
-    url(../img/slide-down.png)
+  background: url(../img/slide-down.png)
     bottom left
     no-repeat
     #ffea00;
   height: 79px;
-  padding-top: 50px;
 }
 
 #section-3 {
+  padding: 0px 50px;
 }
 #section-3 #planet {
   position: relative;
   top: -200px;
   left: -50px;
+  max-width: 90vw;
 }
 #section-3 .heading-text {
-  margin: 320px 0 0 120px;
+  margin: 330px 0 0 00px;
 }
 #section-3 .text {
-  margin: 25px 75px 0 120px;
+  margin: 25px 75px 0px 0px;
 }
 #section-3 .client-list {
-  padding: 0 50px;
-  position: relative;
-  top: -90px;
+  padding: 10px;
 }
 #section-3 img.logo {
   display: inline;
@@ -167,23 +163,23 @@ a.pure-menu-heading {
   padding: 0 50px;
 }
 #section-3-slider {
+  background: url(../img/black-line-down.png) no-repeat;
+  height: 79px;
   width: 100%;
 }
-#section-3-slider img {
-  display: block;
-  margin: auto;
-}
 
+#section-4 {
+  padding: 0px 50px;
+}
 #section-4 .heading-text {
   margin-bottom: 25px;
-  text-align: right;
-}
-#section-4 .text {
-  text-align: right;
 }
 #section-4 img {
   top: -100px;
   position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 250px;
   padding: 30px;
 }
@@ -206,30 +202,12 @@ a.pure-menu-heading {
   color: #000;
 }
 
-.source {
-  font-family: Gilroy-ExtraBold;
-  font-size: 17px;
-  line-height: 0.3em;
-}
-.source .name {
-  text-transform: uppercase;
-}
-.source.right-align {
-  text-align: right;
-  margin: 40px 25px 0 0;
-}
-.source.left-align {
-  margin: 35px 0 0 50px;
-}
-
 .newsletter-box {
   background-color: #000;
   width: 100%;
-  /*margin: 0 auto;*/
   position: fixed;
   bottom: 0px;
-  padding: 10px 0 10px 0;
-  /*padding: 25px 0 75px 0;*/
+  padding: 10px;
 }
 .newsletter-box .text {
   display: inline;
@@ -246,7 +224,6 @@ a.pure-menu-heading {
 .newsletter-box .center {
   display: block;
   margin: 0 auto;
-  width: 900px;
 }
 
 #footer {
@@ -277,12 +254,6 @@ a.pure-menu-heading {
 }
 #footer p {
   margin: 0;
-}
-
-.Gilroy-ExtraBold {
-  font-family: Gilroy-ExtraBold;
-  font-weight: normal;
-  font-style: normal;
 }
 
 /* Mailchimp */

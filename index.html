@@ -2,111 +2,110 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Brains &amp; Beards - Home of Great Mobile Applications</title>
-	<link rel="stylesheet" type="text/css" href="style/css/vendor.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Brains &amp; Beards - Home of Great Mobile Applications</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style/css/vendor.css">
   <link rel="stylesheet" type="text/css" href="style/css/screen.css">
 </head>
 
 <body>
-  <div id="menu">
-    <div class="pure-menu pure-menu-horizontal">
-      <a href="/" class="pure-menu-heading">&nbsp;</a>
-      <ul class="pure-menu-list">
-        <li class="pure-menu-item"><a href="#section-1" class="pure-menu-link">About Us</a></li>
-        <li class="pure-menu-item"><a href="#section-2" class="pure-menu-link">Testimonials</a></li>
-        <li class="pure-menu-item"><a href="#section-3" class="pure-menu-link">Clients</a></li>
-        <li class="pure-menu-item"><a href="https://blog.brainsandbeards.com" class="pure-menu-link">BLog</a></li>
-        <li class="pure-menu-item"><a href="#footer" class="pure-menu-link">Contact Us</a></li>
-        <li class="pure-menu-item active">
-          <a href="https://brainsandbeards.typeform.com/to/PzH5xZ" class="pure-menu-link" target="_blank">Hire Us!</a>
-        </li>
-      </ul>
-    </div>
-  </div>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="/"> <!-- Brains and Beards branding -->
+        <img src="style/img/logo.png" height="40px" alt="Brains &amp; Beards Logo">
+      </a>
 
-  <div class="container">
-    <div id="section-1" class="pure-g">
-      <div id="art" class="pure-u-3-5"></div>
-      <div class="pure-u-2-5">
-        <p class="heading-text Gilroy-ExtraBold">Home of <br/>great mobile applications</p>
-        <p class="text Poppins-Regular">
-          We are an unpretentious mobile studio based in sunny Barcelona and hipster Berlin.
-          Our passion is to solve problems through design and technology. We are great developers
-          and teachers. We work in a lean and agile way and treat you as a partner, not a client.
-          We believe in long lasting relationships.
-        </p>
-        <p class="cta Gilroy-ExtraBold">
-          <a target="_blank" href="https://brains.zone/no-brainers">Meet the Team</a>
-        </p>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bnbNavigationContent" aria-controls="bnbNavigationContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="bnbNavigationContent">
+        <ul class="navbar-nav w-100 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#section-1">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section-2">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section-3">Clients</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://blog.brainsandbeards.com">BLog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact Us</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://brainsandbeards.typeform.com/to/PzH5xZ" target="_blank">Hire Us!</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="section-1">
+    <div class="container">
+      <div class="row">
+        <div id="art" class="col-12 col-lg-7"></div>
+        <div class="col-12 col-lg-5">
+          <p class="heading-text Gilroy-ExtraBold">Home of <br/>great mobile applications</p>
+          <p class="text Poppins-Regular">
+            We are an unpretentious mobile studio based in sunny Barcelona and hipster Berlin. Our passion is to solve problems through design and technology. We are great developers and teachers. We work in a lean and agile way and treat you as a partner, not a
+            client. We believe in long lasting relationships.
+          </p>
+          <p class="cta Gilroy-ExtraBold">
+            <a target="_blank" href="https://brains.zone/no-brainers">Meet the Team</a>
+          </p>
+        </div>
       </div>
     </div>
   </div>
 
   <div id="section-2">
     <div class="container">
-      <div class="pure-g">
-        <div class="pure-u-2-5">
-          <p class="heading-text Gilroy-ExtraBold">
-            Why they <br/> chose us
+      <p class="heading-text Gilroy-ExtraBold">
+        Why they <br/> chose us
+      </p>
+      <div class="row testimonial-row">
+        <div class="col col-12 col-lg-7">
+          <p class="testimonial">
+            &#8220;Brains &amp; Beards helped me by solving many technical impediments across various agile development teams through implementing the needed changes to the backend of those connected applications. The result was that we were able to release the product
+            in time and scope. I would recommend Brains &amp; Beards to people who need the profound support of experienced developers to solve technically challenging projects.&#8221;
           </p>
-        </div>
-      </div>
-
-      <div class="pure-g item">
-        <div class="pure-u-3-5">
-          <p class="testimonial right-pad">
-            &#8220;Brains &amp; Beards helped me by solving many technical impediments across various agile development teams through
-            implementing the needed changes to the backend of those connected applications. The result was that we were
-            able to release the product in time and scope. I would recommend Brains &amp; Beards to people who need the
-            profound support of experienced developers to solve technically challenging projects.&#8221;
-          </p>
-        </div>
-        <div id="hot" class="pure-u-2-5">
-          <img src="style/img/hot-sweet-nice.png" title="" />
           <div class="source">
-            <p class="name">Sebastian Gerdemann</p>
-            <p>Senior Product Manager</p>
-            <p>XING E-Recruiting GmbH &amp; Co. KG</p>
+            <p>- <span class="name">Sebastian Gerdemann</span>, Senior Product Manager, XING E-Recruiting GmbH &amp; Co. KG</p>
+          </div>
+        </div>
+        <div class="col col-12 col-lg-5">
+          <img id="hot" src="style/img/hot-sweet-nice.png">
+        </div>
+      </div>
+      <div class="row testimonial-row">
+        <div class="col">
+          <p class="testimonial">
+            &#8220;We were very happy with our decision to work with Brains &amp; Beards and the personal approach given by Patryk and his team. We plan to continue using Brains &amp; Beards services for specific missions where their experience will be valuable to
+            our team and our projects. Needless to say that we would warmly recommend their services to any business looking to embark on the joys of mobile development, but also to those seeking to improve an existing product.&#8221;
+          </p>
+          <div class="source">
+            <p>- <span class="name">Frederic Galligani</span>, Director, Visca Web (Marcadores.com and Futebol.com)</p>
           </div>
         </div>
       </div>
-
-      <div class="pure-g item">
-        <div class="pure-u-1-5">
-          <div class="source right-align">
-            <p class="name">Sergio Gago</p>
-            <p>Technical Director</p>
-            <p>Rakuten SL</p>
-          </div>
+      <div class="row testimonial-row">
+        <div class="col col-12 col-lg-5">
           <img id="good-job" src="style/img/good-job.png" title="" />
         </div>
-        <div class="pure-u-3-5">
-          <p class="testimonial right-pad">
-            &#8220;I've approached Brains &amp; Beards, because we needed a new mobile application for the Spanish market.
-            The result was a product which is not only easy to maintain, robust, but as well,great-looking and simple to
-            understand for the Rakuten users. Their years-long expertise helped us to get rid of many problems before they
-            even appeared.&#8221;
-          </p>
-        </div>
-      </div>
-
-      <div class="pure-g item">
-        <div class="pure-u-3-5">
+        <div class="col col-12 col-lg-7">
           <p class="testimonial">
-            &#8220;We were very happy with our decision to work with Brains &amp; Beards and the personal approach given
-            by Patryk and his team. We plan to continue using Brains &amp; Beards services for specific missions where
-            their experience will be valuable to our team and our projects. Needless to say that we would warmly recommend
-            their services to any business looking to embark on the joys of mobile development, but also to those seeking
-            to improve an existing product.&#8221;
+            &#8220;I've approached Brains &amp; Beards, because we needed a new mobile application for the Spanish market. The result was a product which is not only easy to maintain, robust, but as well,great-looking and simple to understand for the Rakuten users.
+            Their years-long expertise helped us to get rid of many problems before they even appeared.&#8221;
           </p>
-        </div>
-        <div class="pure-u-2-5">
-          <div class="source left-align">
-            <p class="name">Frederic Galligani</p>
-            <p>Director, Visca Web</p>
-            <p>(Marcadores.com and Futebol.com)</p>
+          <div class="source">
+            <p>- <span class="name">Sergio Gago</span>, Technical Director, Rakuten SL</p>
           </div>
         </div>
       </div>
@@ -116,40 +115,42 @@
 
   <div id="section-3">
     <div class="container">
-      <div class="pure-g">
-        <div class="pure-u-2-5">
-          <img id="planet" src="style/img/smiley-planet.png" title="" />
+      <div class="row">
+        <div class="col col-12 col-lg-6">
+          <img id="planet" src="style/img/smiley-planet.png">
         </div>
-        <div class="pure-u-3-5">
+        <div class="col col-12 col-lg-6">
           <p class="heading-text Gilroy-ExtraBold">Happy <br/>customers</p>
           <p class="text Poppins-Regular">
-            We've worked with some pretty great people at some pretty awesome companies. We also
-            try to make time to work on some open source projects.
+            We've worked with some pretty great people at some pretty awesome companies. We also try to make time to work on some open source projects.
           </p>
         </div>
       </div>
-
-      <div class="pure-g client-list">
-        <img src="style/img/client-rakuten.png" title="" class="logo" height="50" />
-        <img src="style/img/client-visca.png" title="" class="logo" height="45" />
-        <img src="style/img/client-xing.png" title="" class="logo" height="50" />
-        <img src="style/img/client-sharoo.png" title="" class="logo" height="50" />
+      <div class="row client-list">
+        <div class="col col-md-6 col-lg-3">
+          <img src="style/img/client-rakuten.png" class="logo" height="50" />
+        </div>
+        <div class="col col-md-6 col-lg-3">
+          <img src="style/img/client-visca.png" class="logo" height="45" />
+        </div>
+        <div class="col col-md-6 col-lg-3">
+          <img src="style/img/client-xing.png" class="logo" height="50" />
+        </div>
+        <div class="col col-md-6 col-lg-3">
+          <img src="style/img/client-sharoo.png" class="logo" height="50" />
+        </div>
       </div>
+      <div id="section-3-slider"></div>
     </div>
-  </div>
-  <div id="section-3-slider">
-    <img src="style/img/black-line-down.png" title="" height="79" width="1150" />
   </div>
 
   <div id="section-4">
     <div class="container">
-      <div class="pure-g">
-        <div class="pure-u-3-5">
+      <div class="row">
+        <div class="col col-12 col-md-8">
           <p class="heading-text Gilroy-ExtraBold">Read our Minds</p>
           <p class="text Poppins-Regular">
-            We are a busy bunch. We regularly speak, mentor, and write. <br/>
-            Mostly about how to develop better applications faster. <br/>
-            Find out what we've been doing lately on our blog
+            We are a busy bunch. We regularly speak, mentor, and write. <br/> Mostly about how to develop better applications faster. <br/> Find out what we've been doing lately on our blog
           </p>
 
           <a class="blog-link" href="https://blog.brainsandbeards.com/what-makes-react-native-difficult-to-learn-c926c319ab34#.78u4ahrb3">What makes React Native difficult to learn</a>
@@ -158,10 +159,9 @@
           <a class="blog-link" href="https://blog.brainsandbeards.com/to-persist-or-not-to-persist-ec156cb9cfad">
             READ MORE
           </a>
-
         </div>
-        <div class="pure-u-2-5">
-          <img id="head" src="style/img/head-cloud.png" title="" />
+        <div class="col col-12 col-md-4">
+          <img id="head" src="style/img/head-cloud.png">
         </div>
       </div>
     </div>
@@ -200,5 +200,11 @@
       </div>
     </div>
   </div>
+
+  <!-- jQuery, Popper.js, and Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </body>
+
 </html>
