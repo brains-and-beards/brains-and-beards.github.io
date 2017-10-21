@@ -1,10 +1,10 @@
 body {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   font-family: Gilroy-ExtraBold;
 }
 
 nav {
-  background-color: rgba(255,255,255,0.9);
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .nav-item a {
@@ -101,11 +101,7 @@ nav {
 }
 
 #section-2 {
-  background:
-    url(../img/walk-up.png)
-    top left
-    no-repeat
-    #ffea00;
+  background: url(../img/walk-up.png) top left no-repeat #ffea00;
   padding: 150px 50px;
 }
 #section-2 .heading-text {
@@ -126,16 +122,13 @@ nav {
   margin-right: auto;
 }
 #section-2 .testimonial {
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display';
   font-size: 25px;
   letter-spacing: 0;
   line-height: 1.3;
 }
 #section-2-slider {
-  background: url(../img/slide-down.png)
-    bottom left
-    no-repeat
-    #ffea00;
+  background: url(../img/slide-down.png) bottom left no-repeat #ffea00;
   height: 79px;
 }
 
@@ -184,7 +177,7 @@ nav {
   padding: 30px;
 }
 #section-4 .blogpost {
-  font-family: "Playfair Display";
+  font-family: 'Playfair Display';
   font-size: 25px;
   letter-spacing: 0;
   line-height: 1.3;
@@ -227,11 +220,7 @@ nav {
 }
 
 #footer {
-  background:
-    url(../img/black-walk-up.png)
-    top left
-    no-repeat
-    #000;
+  background: url(../img/black-walk-up.png) top left no-repeat #000;
   padding: 150px 0;
   color: #fff;
   font-family: Gilroy-ExtraBold;
@@ -258,10 +247,10 @@ nav {
 
 /* Mailchimp */
 #mc_embed_signup {
-  background:#fff;
-  clear:left;
-  font:18px Gilroy-ExtraBold, Helvetica, Arial, sans-serif;
-  width:100%;
+  background: #fff;
+  clear: left;
+  font: 18px Gilroy-ExtraBold, Helvetica, Arial, sans-serif;
+  width: 100%;
 }
 #mc_embed_signup form {
   text-align: right;
