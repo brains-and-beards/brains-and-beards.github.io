@@ -148,12 +148,17 @@ nav {
   margin: 25px 75px 0px 0px;
 }
 #section-3 .client-list {
+  margin-top: -100px;
+  margin-bottom: 50px;
   padding: 10px;
 }
-#section-3 img.logo {
-  display: inline;
+#section-3 .client-list .logo {
+  text-align: center;
   vertical-align: middle;
-  padding: 0 50px;
+  line-height: 120px;
+}
+#section-3 .logo img {
+  display: inline;
 }
 #section-3-slider {
   background: url(../img/black-line-down.png) no-repeat;
